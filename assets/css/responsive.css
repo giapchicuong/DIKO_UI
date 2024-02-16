@@ -1,0 +1,155 @@
+/* Table và moblie */
+@media (max-width: 1023px) {
+  :root {
+    --footer-top-height: 70px;
+    --footer-bottom-height: 40px;
+  }
+  section {
+    height: 50vh;
+  }
+  .section-item-list {
+    display: none;
+  }
+  .article {
+    min-height: 60vh;
+  }
+  footer {
+    height: var(--footer-top-height);
+  }
+  .footer-bottom {
+    height: var(--footer-bottom-height);
+  }
+}
+/* Table*/
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-table {
+    display: none;
+  }
+  .slider-bg {
+    background-size: 70%;
+  }
+  .slider_item-title {
+    font-size: 40px;
+    line-height: 53px;
+  }
+  .slider_item-des {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .section_img > img {
+    width: 100%;
+  }
+  .section_title {
+    font-size: 30px;
+    line-height: 48px;
+  }
+  .section_des {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .section_left {
+    padding: 0 10px;
+  }
+  .section_left > img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .section_right > button {
+    width: 50%;
+    float: right;
+  }
+  article > button {
+    width: 25%;
+  }
+}
+/* Mobile*/
+@media (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  .nav_brand {
+    width: 50%;
+    text-align: left;
+  }
+  .nav-mobile {
+    display: block;
+  }
+  .slider-bg {
+    height: calc(80vh - var(--header-height));
+    background-size: 100%;
+  }
+  .slider_item-title {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .slider_item-des {
+    font-size: 10px;
+    line-height: 10px;
+    display: block;
+  }
+  .slider_button {
+    padding: 0;
+    display: block;
+  }
+  .slider_button-left {
+    width: 50%;
+    margin: 5px 0;
+    font-size: 13px;
+    padding: 0;
+  }
+  .slider_button-right {
+    width: 50%;
+    margin: 5px 0;
+    font-size: 13px;
+    padding: 0;
+  }
+  .section_img > img {
+    width: 100%;
+  }
+  .section_title {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .section_des {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .section_left {
+    padding: 0 10px;
+  }
+  .section_left > img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .section_right > button {
+    width: 50%;
+    float: right;
+  }
+  .section_img > img {
+    width: 100%;
+  }
+  .section_right > button {
+    width: 100%;
+  }
+  section {
+    height: 35vh;
+  }
+  article > button {
+    width: 50%;
+  }
+  .footer-left {
+    width: 50%;
+  }
+  .footer-center {
+    width: 50%;
+  }
+  .footer-right {
+    display: none;
+  }
+  .footer-right > button {
+    width: 100%;
+  }
+  .footer-bottom-icon-list {
+    gap: 15%;
+  }
+}

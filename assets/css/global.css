@@ -1,0 +1,40 @@
+:root {
+  --private-color: #111b47;
+  --second-color: #091133;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #505f98;
+  --text-des-primary-color: #6f7cb2;
+  --text-des-second-color: #5d6970;
+  --text-des-tertiary-color: #37447e;
+  --border-color: #091133;
+  --price-number-color: #222f65;
+  --price-title-color: #37447e;
+  --price-des-color: #5d6970;
+  --text-footer-color: #939ea4;
+  --footer-title-color: #37447e;
+  --bg-color: #f3f5ff;
+  --bg-footer-color: #e7ecff;
+  --border-footer: #cdd1d4;
+  --footer-icon: #b0b8bc;
+  --header-height: 60px;
+  --footer-top-height: 140px;
+  --footer-bottom-height: 80px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+.max-container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
